@@ -2,9 +2,9 @@
 Service.destroy_all 
 
 Service.create!([
-  { description: "Residential Property Management" },
-  { description: "Property Refurbisment" },
-  { description: "Client Service and Coordination" },
-  { description: "Owner Service and Support" },
-  { description: "Investors Support" }
+  { title: "Management", description: "Residential Property Management" },
+  { title: "Leasing",description: "Property Refurbisment" },
+  { title: "Check In and Out", description: "Client Service and Coordination" },
+  { title: "Maintenance", description: "Owner Service and Support" },
+  { title: "Advices", description: "Investors Support" }
 ])
